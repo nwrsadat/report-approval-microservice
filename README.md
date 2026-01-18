@@ -27,7 +27,6 @@ Each service runs independently and is containerized.
    docker compose up --build
 
 ## Endpoints
-- GET /health
 - GET /reports/summary
 - GET /reports/summary/stream
 - POST /approvals/{id}/approve
