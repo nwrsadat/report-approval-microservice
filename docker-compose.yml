@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  report-service:
+    build: ./report-service
+    container_name: report-service
+    ports:
+      - "8081:8081"
+
+  approval-service:
+    build: ./approval-service
+    container_name: approval-service
+    ports:
+      - "8082:8082"
